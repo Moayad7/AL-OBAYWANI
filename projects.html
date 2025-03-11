@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AL-OBAYWANI is your trusted partner in contracting solutions, specializing in high-quality construction services tailored to your needs. Let us help you build your vision!" />
+    <title>Our Projects - AL-OBAYWANI</title>
+
+    <!-- Include Bootstrap Icons in your HTML head -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="icon" href="assets/logo.png" type="image/x-icon" />
+    <script src="js/index.global.js"></script>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+</head>
+<body class="bg-gray-100">
+
+    <header class="w-full px-2 md:px-20 lg:px-44">
+        <!-- Navigation Bar -->
+        <nav class="mt-5 lg:mt-10 p-4 bg-gray-800 rounded-3xl shadow-lg flex justify-between items-center text-white">
+            <!-- Logo Section -->
+            <div class="flex items-center">
+                <img src="assets/logo-white.png" alt="AL-OBAYWANI Logo" class="h-10" />
+            </div>
+            <!-- Navigation Links Section -->
+            <div class="hidden md:flex space-x-6">
+                <a href="index.html" class="hover:text-[#E2CE86] transition duration-300">Home</a>
+                <a href="services.html" class="hover:text-[#E2CE86] transition duration-300">Services</a>
+                <a href="about.html" class="hover:text-[#E2CE86] transition duration-300">About Us</a>
+                <a href="projects.html" class="hover:text-[#E2CE86] transition duration-300">Projects</a> <!-- Added Projects link -->
+            </div>
+            <!-- Contact Link Section -->
+            <div class="hidden md:flex">
+                <a href="mailto:info@al-obaywani.com" class="px-4 py-2 bg-[#E2CE86] rounded-xl hover:bg-[#C2A68A] transition duration-300 text-gray-800">GET IN TOUCH</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden" id="menu-button" onclick="toggleMenu()">
+                <span class="text-2xl">☰</span>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="-translate-y-400 absolute top-30 left-1/2 transform -translate-x-1/2 w-[95%] bg-[#E2CE86] shadow-lg rounded-3xl transition duration-300 bold z-9">
+            <div class="flex flex-col items-center p-4">
+                <a href="index.html" class="py-2 hover:text-[#E2CE86] transition duration-300">Home</a>
+                <a href="services.html" class="py-2 hover:text-[#E2CE86] transition duration-300">Services</a>
+                <a href="about.html" class="py-2 hover:text-[#E2CE86] transition duration-300">About Us</a>
+                <a href="projects.html" class="py-2 hover:text-[#E2CE86] transition duration-300">Projects</a> <!-- Added Projects link -->
+                <a href="mailto:info@al-obaywani.com" class="py-2 px-4 bg-gray-800 rounded-xl hover:bg-gray-950 text-white transition duration-300">GET IN TOUCH</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="overflow-hidden my-12">
+        <!-- Hero Section -->
+        <div class="relative mb-12 px-4 md:px-20 lg:px-44 ">
+            <video autoplay muted loop playsinline class="w-full h-[400px] object-cover overflow-hidden rounded-3xl">
+                <source src="assets/video/obayawani.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class=" absolute inset-0 flex items-center justify-center ">
+                <h1 class="text-4xl text-white font-bold bg-[#0007] p-4 rounded-3xl">Our Projects</h1>
+            </div>
+        </div>
+
+        <!-- Projects Section -->
+        <section class="px-4 md:px-20 lg:px-44">
+            <h2 class="text-4xl lg:text-6xl font-bold text-center mb-8">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project Card 1 -->
+                <div class="bg-white rounded-3xl shadow-lg overflow-hidden">
+                    <img src="assets/projects/1/1.jpg" alt="Project 1" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Project Title 1</h3>
+                        <p class="text-gray-600 mb-4">Brief description of Project 1.</p>
+                        <a href="project-details.html" class="inline-block px-4 py-2 bg-[#E2CE86] text-gray-800 rounded-xl hover:bg-[#C2A68A] transition duration-300">Read More</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="bg-white rounded-3xl shadow-lg overflow-hidden">
+                    <img src="assets/projects/2/2.jpg" alt="Project 2" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Project Title 2</h3>
+                        <p class="text-gray-600 mb-4">Brief description of Project 2.</p>
+                        <a href="project-details.html" class="inline-block px-4 py-2 bg-[#E2CE86] text-gray-800 rounded-xl hover:bg-[#C2A68A] transition duration-300">Read More</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="bg-white rounded-3xl shadow-lg overflow-hidden">
+                    <img src="assets/projects/3/3.jpg" alt="Project 3" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Project Title 3</h3>
+                        <p class="text-gray-600 mb-4">Brief description of Project 3.</p>
+                        <a href="project-details.html" class="inline-block px-4 py-2 bg-[#E2CE86] text-gray-800 rounded-xl hover:bg-[#C2A68A] transition duration-300">Read More</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 4 -->
+                <div class="bg-white rounded-3xl shadow-lg overflow-hidden">
+                    <img src="assets/projects/4/4.jpg" alt="Project 4" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Project Title 4</h3>
+                        <p class="text-gray-600 mb-4">Brief description of Project 4.</p>
+                        <a href="project-details.html" class="inline-block px-4 py-2 bg-[#E2CE86] text-gray-800 rounded-xl hover:bg-[#C2A68A] transition duration-300">Read More</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 5 -->
+                <div class="bg-white rounded-3xl shadow-lg overflow-hidden">
+                    <img src="assets/projects/5/5.jpg" alt="Project 5" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Project Title 5</h3>
+                        <p class="text-gray-600 mb-4">Brief description of Project 5.</p>
+                        <a href="project-details.html" class="inline-block px-4 py-2 bg-[#E2CE86] text-gray-800 rounded-xl hover:bg-[#C2A68A] transition duration-300">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gradient-to-r from-gray-700 to-gray-900 text-white py-10">
+        <div class="container mx-auto px-4 lg:px-16">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Logo Section -->
+ <div class="flex justify-center items-center mb-6">
+                        <img src="assets/logo-white.png" alt="AL-OBAYWANI Logo" class="h-[50%]" />
+                    </div>
+
+                    <!-- Services Links Section -->
+                    <div>
+                        <h3 class="text-lg font-bold mb-4">Our Services</h3>
+                        <ul class="space-y-2">
+                            <li>
+                                <a href="#" class="hover:text-[#E2CE86] transition duration-300">Contracting</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-[#E2CE86] transition duration-300">Construction of residential</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-[#E2CE86] transition duration-300">Excavation and backfill</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-[#E2CE86] transition duration-300">Soil supply</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-[#E2CE86] transition duration-300">Supply of ornamental stones</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-[#E2CE86] transition duration-300">Interlock work and blasted</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Fast Links Section -->
+                    <div>
+                        <h3 class="text-lg font-bold mb-4">Fast Links</h3>
+                        <ul class="space-y-2">
+                            <li>
+                                <a href="#" class="hover:text-[#E2CE86] transition duration-300">Home</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-[#E2CE86] transition duration-300">Services</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-[#E2CE86] transition duration-300">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-[#E2CE86] transition duration-300">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Newsletter Section -->
+                    <div>
+                        <h3 class="text-lg font-bold mb-4">Subscribe to Our Newsletter</h3>
+                        <p class="mb-4">Stay updated with our latest news and offers. Enter your email below:</p>
+                        <form action="#" method="POST" class="flex flex-col">
+                            <input type="email" placeholder="Your Email Address" class="p-2 rounded-md mb-2" required />
+                            <button type="submit" class="bg-[#E2CE86] text-gray-800 rounded-md py-2 hover:bg-[#C2A68A] transition duration-300">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Social Media Section -->
+                <div class="flex justify-center mt-6">
+                    <a href="https://facebook.com" target="_blank" class="mx-2 hover:text-[#E2CE86] transition duration-300">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="mx-2 hover:text-[#E2CE86] transition duration-300">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" class="mx-2 hover:text-[#E2CE86] transition duration-300">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" class="mx-2 hover:text-[#E2CE86] transition duration-300">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="text-center mt-8 border-t border-gray-700 pt-4">
+                <p>&copy; 2023 AL-OBAYWANI. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>
