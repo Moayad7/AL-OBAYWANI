@@ -96,7 +96,7 @@ h1, h2, h3, h4 {
   /* clients */
 
   .slider-clients {
-    animation: scroll 4s linear infinite;
+    animation: scroll 15s linear infinite;
   }
   
   @keyframes scroll {
@@ -104,6 +104,6 @@ h1, h2, h3, h4 {
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-50%);
+      transform: translateX(-100%);
     }
   }
