@@ -28,13 +28,23 @@ h1, h2, h3, h4 {
     align-items: center;
     justify-content: center;
   }
+
+
+
   
   .slide img {
     width: 100%;
     height: auto;
     object-fit: cover;
-
   }
+
+  @media (max-width: 768px) { /* Adjust the max-width as needed for your mobile breakpoint */
+    .slide img {
+      width: auto;
+      height: 100%;
+      object-fit: cover;
+    }
+}
   
   .overlay {
     position: absolute;
@@ -96,9 +106,9 @@ h1, h2, h3, h4 {
   /* clients */
 
   .slider-clients {
-    animation: scroll 15s linear infinite;
+    animation: scroll 25s linear infinite;
   }
-  
+
   @keyframes scroll {
     0% {
       transform: translateX(0);
@@ -107,3 +117,16 @@ h1, h2, h3, h4 {
       transform: translateX(-100%);
     }
   }
+
+  @media (max-width: 768px) { /* Adjust the max-width as needed for your mobile breakpoint */
+    @keyframes scroll {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-600%);
+      }
+    }
+}
+  
+  
