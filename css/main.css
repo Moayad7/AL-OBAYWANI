@@ -21,6 +21,7 @@ h1, h2, h3, h4 {
     transition: transform 0.5s ease;
   }
   
+  
   .slide {
     min-width: 100%;
     position: relative;
@@ -130,3 +131,63 @@ h1, h2, h3, h4 {
 }
   
   
+
+
+
+
+/* carousel slider */
+
+
+.carousel_slider {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.carousel_slides {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+
+.carousel_slide {
+  min-width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel_slide img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) { /* Adjust the max-width as needed for your mobile breakpoint */
+  .carousel_slide img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+button.prev, button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+button.prev {
+  left: 10px;
+}
+
+button.next {
+  right: 10px;
+}
