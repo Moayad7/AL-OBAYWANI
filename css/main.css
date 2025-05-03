@@ -1,5 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
     font-family: 'Roboto', sans-serif; /* Default font for body */
+    text-align: justify;
 }
 
 h1, h2, h3, h4 {
@@ -192,4 +198,17 @@ button.prev {
 
 button.next {
   right: 10px;
+}
+
+
+/* Custom scrollbar for the right description area */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: #a0aec0; /* gray-400 */
+  border-radius: 3px;
 }
