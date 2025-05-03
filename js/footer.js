@@ -48,22 +48,22 @@ const footer = `
             <h3 class="text-lg font-bold mb-4">Fast Links</h3>
             <ul class="space-y-2">
               <li>
-                <a href="#" class="hover:text-[#E2CE86] transition duration-300"
+                <a href="index.html" class="hover:text-[#E2CE86] transition duration-300"
                   >Home</a
                 >
               </li>
               <li>
-                <a href="#" class="hover:text-[#E2CE86] transition duration-300"
+                <a href="services.html" class="hover:text-[#E2CE86] transition duration-300"
                   >Services</a
                 >
               </li>
               <li>
-                <a href="#" class="hover:text-[#E2CE86] transition duration-300"
+                <a href="about.html" class="hover:text-[#E2CE86] transition duration-300"
                   >About Us</a
                 >
               </li>
               <li>
-                <a href="#" class="hover:text-[#E2CE86] transition duration-300"
+                <a href="contact.html" class="hover:text-[#E2CE86] transition duration-300"
                   >Contact</a
                 >
               </li>
@@ -83,14 +83,14 @@ const footer = `
             <i class="bi bi-facebook"></i>
           </a>
           <a
-            href="https://twitter.com"
+            href="https://x.com/AlObaiwani"
             target="_blank"
             class="mx-2 hover:text-[#E2CE86] transition duration-300"
           >
-            <i class="bi bi-twitter"></i>
+            <i class="bi bi-x"></i>
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/company/al-obaiwani-contracting-company-acc/?viewAsMember=true"
             target="_blank"
             class="mx-2 hover:text-[#E2CE86] transition duration-300"
           >
