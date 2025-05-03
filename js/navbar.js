@@ -44,8 +44,10 @@ const navbar = `
         <a href="career.html" class="hover:text-[#E2CE86] transition duration-300">Career</a>
         <a href="contact.html" class="hover:text-[#E2CE86] transition duration-300">Contact Us</a>
     </div>
-    <div class="hidden md:flex">
+    <div class="hidden md:flex gap-2 ">
         <img width="60px" src="./assets/iso-logo.png" alt="iso">
+        <img width="60px" src="./assets/iso-14001.png" alt="iso">
+        <img width="60px" src="./assets/iso-45001.png" alt="iso">
     </div>
     <div class="md:hidden" id="menu-button" onclick="toggleMenu()">
         <span class="text-2xl">☰</span>
