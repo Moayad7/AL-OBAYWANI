@@ -24,10 +24,11 @@ const navbar = `
         <div class="relative relative_dropdown group">
             <a href="services.html" class="hover:text-[#E2CE86] transition duration-300">Services</a>
             <div class="z-[99] w-40 absolute left-0 hidden group-hover:block bg-gray-800 rounded-lg shadow-lg mt-2">
-                <a href="#" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Earth Moving </a>
-                <a href="#" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Roads Construction </a>
-                <a href="#" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Mining</a>
-                <a href="#" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Equipment Rental</a>
+                <a href="services.html#services-list" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Earth Moving </a>
+                <a href="services.html#services-list" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Roads Construction </a>
+                <a href="services.html#services-list" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Drill & Blast</a>
+                <a href="services.html#services-list" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Mining</a>
+                <a href="services.html#services-list" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Equipment Rental</a>
             </div>
         </div>
 

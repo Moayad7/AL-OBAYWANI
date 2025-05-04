@@ -3,40 +3,40 @@ const footer = `
 <div class="container mx-auto px-4 lg:px-16">
         <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
           <!-- Logo Section -->
-          <div class="flex justify-center items-center mb-6">
+          <a href="index.html" class="flex justify-center items-center mb-6">
             <img
               src="assets/logo-white.png"
               alt="Al-Obaiwani Logo"
               class="h-[50%]"
             />
-          </div>
+          </a>
 
           <!-- Services Links Section -->
           <div>
             <h3 class="text-lg font-bold mb-4">Our Services</h3>
             <ul class="space-y-2">
               <li>
-                <a href="#" class="hover:text-[#E2CE86] transition duration-300"
+                <a href="services.html#services-list" class="hover:text-[#E2CE86] transition duration-300"
                   >Earth moving</a
                 >
               </li>
               <li>
-                <a href="#" class="hover:text-[#E2CE86] transition duration-300"
+                <a href="services.html#services-list" class="hover:text-[#E2CE86] transition duration-300"
                   >Road Construction</a
                 >
               </li>
               <li>
-                <a href="#" class="hover:text-[#E2CE86] transition duration-300"
+                <a href="services.html#services-list" class="hover:text-[#E2CE86] transition duration-300"
                   >Drill & Blast</a
                 >
               </li>
               <li>
-                <a href="#" class="hover:text-[#E2CE86] transition duration-300"
+                <a href="services.html#services-list" class="hover:text-[#E2CE86] transition duration-300"
                   >Minerals Extracting</a
                 >
               </li>
               <li>
-                <a href="#" class="hover:text-[#E2CE86] transition duration-300"
+                <a href="services.html" class="hover:text-[#E2CE86] transition duration-300"
                   >Equipments Rental
                 </a>
               </li>
