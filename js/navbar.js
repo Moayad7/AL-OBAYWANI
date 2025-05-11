@@ -9,11 +9,11 @@ const navbar = `
         <div class="relative relative_dropdown group">
             <a href="about.html" class="hover:text-[#E2CE86] transition duration-300">About Us</a>
             <div class="z-[99] w-40  absolute left-0 hidden group-hover:block bg-gray-800 rounded-lg shadow-lg mt-2">
-                <a href="/about.html" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Overview</a>
-                <a href="/our-strategy.html" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Our Strategy</a>
-                <a href="/safety-policy.html" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Safety Policy</a>
-                <a href="/environment-policy.html" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Environment Policy</a>
-                <a href="/quality-policy.html" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Quality Policy</a>
+                <a href="about.html" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Overview</a>
+                <a href="our-strategy.html" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Our Strategy</a>
+                <a href="safety-policy.html" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Safety Policy</a>
+                <a href="environment-policy.html" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Environment Policy</a>
+                <a href="quality-policy.html" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Quality Policy</a>
             </div>
         </div>
 
@@ -22,23 +22,23 @@ const navbar = `
         <a href="projects.html" class="hover:text-[#E2CE86] transition duration-300">Projects</a>
         
         <div class="relative relative_dropdown group">
-            <a href="/services.html" class="hover:text-[#E2CE86] transition duration-300">Services</a>
+            <a href="services.html" class="hover:text-[#E2CE86] transition duration-300">Services</a>
             <div class="z-[99] w-40 absolute left-0 hidden group-hover:block bg-gray-800 rounded-lg shadow-lg mt-2">
-                <a href="/services.html#services-list" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Earth Moving </a>
-                <a href="/services.html#services-list" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Roads Construction </a>
-                <a href="/services.html#services-list" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Drill & Blast</a>
-                <a href="/services.html#services-list" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Mining</a>
-                <a href="/services.html#services-list" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Equipment Rental</a>
+                <a href="services.html#services-list" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Earth Moving </a>
+                <a href="services.html#services-list" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Roads Construction </a>
+                <a href="services.html#services-list" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Drill & Blast</a>
+                <a href="services.html#services-list" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Mining</a>
+                <a href="services.html#services-list" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Equipment Rental</a>
             </div>
         </div>
 
         <a href="clients.html" class="hover:text-[#E2CE86] transition duration-300">Clients</a>
 
         <div class="relative relative_dropdown group">
-            <a href="/media-center.html" class="hover:text-[#E2CE86] transition duration-300">Media Center</a>
+            <a href="media-center.html" class="hover:text-[#E2CE86] transition duration-300">Media Center</a>
             <div class="z-[99] w-40  absolute left-0 hidden group-hover:block bg-gray-800 rounded-lg shadow-lg mt-2">
-                <a href="#" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">News & Events (Coming Soon)</a>
-                <a href="#" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Company Profile (Coming Soon)</a>
+                <a href="media-center.html" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">News & Events (Coming Soon)</a>
+                <a href="media-center.html" class="block px-4 py-2 hover:bg-[#E2CE86] transition duration-300">Company Profile (Coming Soon)</a>
             </div>
         </div>
 
@@ -56,15 +56,15 @@ const navbar = `
 </nav>
 <div id="mobile-menu" class="-translate-y-400 absolute top-30 left-1/2 transform -translate-x-1/2 w-[95%] bg-[#E2CE86] shadow-lg rounded-3xl transition duration-300 bold z-99">
     <div class="flex flex-col items-center p-4">
-        <a href="/index.html" class="py-2 hover:text-[#E2CE86] transition duration-300">Home</a>
-        <a href="/about.html" class="py-2 hover:text-[#E2CE86] transition duration-300">About Us</a>
-        <a href="/services.html" class="py-2 hover:text-[#E2CE86] transition duration-300">Services</a>
-        <a href="/projects.html" class="py-2 hover:text-[#E2CE86] transition duration-300">Projects</a>
-        <a href="/clients.html" class="py-2 hover:text-[#E2CE86] transition duration-300">Clients</a>
-         <a href="/media-center.html" class="py-2 hover:text-[#E2CE86] transition duration-300">Media Center</a>
-        <a href="/career.html" class="py-2 hover:text-[#E2CE86] transition duration-300">Career</a>
-        <a href="/contact.html" class="py-2 hover:text-[#E2CE86] transition duration-300">Contact Us</a>
-        <a href="/mailto:info@al-obaywani.com" class="py-2 px-4 bg-gray-800 rounded-xl hover:bg-gray-950 text-white transition duration-300">GET IN TOUCH</a>
+        <a href="index.html" class="py-2 hover:text-[#E2CE86] transition duration-300">Home</a>
+        <a href="about.html" class="py-2 hover:text-[#E2CE86] transition duration-300">About Us</a>
+        <a href="services.html" class="py-2 hover:text-[#E2CE86] transition duration-300">Services</a>
+        <a href="projects.html" class="py-2 hover:text-[#E2CE86] transition duration-300">Projects</a>
+        <a href="clients.html" class="py-2 hover:text-[#E2CE86] transition duration-300">Clients</a>
+        <a href="media-center.html" class="py-2 hover:text-[#E2CE86] transition duration-300">Media Center</a>
+        <a href="career.html" class="py-2 hover:text-[#E2CE86] transition duration-300">Career</a>
+        <a href="contact.html" class="py-2 hover:text-[#E2CE86] transition duration-300">Contact Us</a>
+        <a href="mailto:info@al-obaywani.com" class="py-2 px-4 bg-gray-800 rounded-xl hover:bg-gray-950 text-white transition duration-300">GET IN TOUCH</a>
     </div>
 </div>
 `; 
