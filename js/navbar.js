@@ -1,7 +1,7 @@
 const navbar = `
 <nav class="mt-5 lg:mt-10 p-4 bg-gray-800 rounded-3xl shadow-lg flex justify-between items-center text-white">
     <a href="index.html" class="flex items-center">
-        <img src="assets/logo-white.png" alt="Al-Obaiwani Logo" class="h-10" />
+        <img src="assets/logo-white.png" alt="Al-Obaiwani Logo" class="px-4" />
     </a>
     <div class="hidden md:flex space-x-6">
         <a href="index.html" class="hover:text-[#E2CE86] transition duration-300">Home</a>

@@ -7,7 +7,7 @@ const footer = `
             <img
               src="assets/logo-white.png"
               alt="Al-Obaiwani Logo"
-              class="h-[50%]"
+              class=""
             />
           </a>
 
